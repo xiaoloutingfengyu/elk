@@ -175,7 +175,7 @@ nginx容器代理其他容器conf配置文件
 ```
 server {
     listen 9000;
-   server_name api.zhiweicloud.com;
+   server_name api.testcloud.com;
 
     access_log /var/log/nginx/api-dev.log;
     error_log /var/log/nginx/api-dev.error.log;
